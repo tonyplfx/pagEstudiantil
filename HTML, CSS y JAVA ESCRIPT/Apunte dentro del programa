@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+comentario: En esta parte del programa comienza la estructuracion del programa
+tanto dela parte head como de la de body.
+
+<head> Como primer paso para al programa tenemos que inciamos con la etiqueta
+  head
+
+  <meta charset="iso-8859-1"> Iniciamos el conjunto de caracteres con los que
+  vamos a estar trabajando.
+  <meta name "description" content ="Este es el titulo de mi pagina web">
+  <meta name "keywords" content="HTML,CSS, JavaScript">
+Terminamos la etiqueta de meta con los dos meta, tanto description como el de
+keywords.
+  <title>"Este apartado corresponde al titulo del documento "</title>
+  <link rel = "stylesheet" ref = "misestilos.css">
+
+</head>
+
+//Dentro del apartado head no vamos a tener tantos elementos visibles mas que el
+titulo y algunos icono que insertemos en el, lo demás lo tendremos como herra-
+mientas de ayuda para los motores de busqueda.//
+
+<body>Como segundo atributo tenemos la etiqueta de body, que corresponde
+  a toda la parte visible de la parte estructurada de nuestro programa
+
+  <header> La etiqueta Header corresponde al titulo principal de nuestra pagina
+    la cual puede contener diferentes elementos que posteriormente veremos como
+    section y footer
+    <h1>Este es el titulo principal de la pagina web <h1> La etiqueta  la utili
+      zamos para definir la posicion jerarquica en los titulos y subtitulos.
+  </header>Cerramos la etiqueta header
+
+<nav> La parte de la barra de navegacion la tenemos para poder acceder facil a
+  los diferentes contenidos que tenemos dentro de esta.
+
+  <ul>La etiqueta de ul la utilizamos para esstablecer que vamos a comenzar a
+    hacer un listado
+
+    Comenzamos declarando el contenido del listado con la etiqueta de <li>
+    <li>principal</li>
+    <li>Fotos</li>
+    <li>videos</li>
+    <li>contactos</li>
+
+  </ul> Cerramos el listado
+
+</nav> Cerramos la barra de navegacion
+
+<section> Tenemos la etiqueta de section como el incio de la seccion en la que
+  mas contenido vamos a introducir en todo el documento, se podria decir que
+  es la parte del documento en la que vamos a introducir la informacion principal
+  de nuestra informacion
+
+  <article> Tenemos la etiqueta de article en la que podemos tener informacion o
+    contenido de diferentes tipos.
+
+    <header>Como pudimos observar en la teoria, la versatilidad de HTML nos
+      permite tener una organizacion dentro de las secciones, con las diferentes
+      etiquetas que tenemos en otras, como header.
+
+      <hgroup>
+      <h1>Titulo del mensaje numero 1</h1>
+      <h2>subtitulo del mensaje numero 1</h2>
+      </hgroup>
+
+Dentro de cada seccion podemos agregar las etiquetas de h1 y demas, aunque por
+cuestiones de eficiencia y optimizacion de recursos tenemos que agruparlas dentro de
+la etiqueta de header.
+
+</header> Cerramos el encabezado de la section
+
+    Este es el contenido de mi primer mensaeje
+    (El contenido que tenmos dentro de esta section va ser el contenido de nuestro
+    documento)
+
+    <footer>
+        <p>comentarios (0)</p>
+    </footer>
+
+  </article>
+
+Iniciamos un article para que podamos seccionar dos diferentes partes de nuestra pagina web
+  <article> Comienza Article
+    <header> Seccionamos la parte de la cabecera en nuestra seccion
+
+      <hgroup> La etiqueta de hgroup la tendremos por motivos de eficiencia en manejos de recurso
+      <h1> Titulo del mensaje numero 2 </h1>
+      <h2> subtitulo del mensaje numero 2 </h2>
+    </hgroup> Cerramos la etiqueta de la agrupacion de recursos
+
+  </header> Terminamos la seccion de header.
+  Este es el contenido de mi segundo mensaje( en esta seccion podemos tener los elementos que se tendran en la 2da seccion)
+    <footer>
+      <p>comentarios (0)</p>
+    </footer>
+
+  </article>
+
+
+</section>
+
+<aside>
+
+  <blockquote>Mensaje numero 1</blockquote>
+  <blockquote> Mensaje Numero 2</blockquote>
+
+</aside>
+
+<footer>Derechos reservados & Copy; 2022-2023</footer>
+
+</body>
+
+</html>

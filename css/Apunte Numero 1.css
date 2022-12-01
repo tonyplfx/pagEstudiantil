@@ -1,0 +1,50 @@
+/*Dentro de Css podemos crear la hoja de estilos de diferentes maneras, a acontinuación veremos diferentes formas de hacer referencia
+a todas estas*\
+
+Por nombre:
+span {
+    font-size: 20px;
+}
+
+Asignar a una o más opciones:
+p, span{
+  font-size: 20px;
+}
+
+Tomando en cuenta la selección por descendencia:
+
+main p{
+  font-size: 20px;
+}
+
+Así tambien podemos hacerlo por id y por clase:
+tenemos que identificar en el codigo html el id de nuestra etiqueta y la sintaxis de la referencia seria
+la siguiente:
+
+#cambios{
+  font-size: 20px;
+}
+
+o tambien por clases:
+
+.cambios{
+    font-size: 20px;
+}
+
+De esta misma forma podemos aplicar esto a un solo elemento de cada una de las clases de esta menera:
+h1.cambios{
+    font-size: 20px;
+}
+
+así tambien si queremos que una etiqueta de un url tenga cierto estilo, tendremos que:
+p a{
+    font-size: 20px;
+}
+Sin embargo, todas las etiquetas a que se encuentren dento de una etiqueta p serán tomadas con este estilo.
+
+ tambien podemos hacer una selleción con la referencia de > para cuando son hijos directos de una sección
+ por ejemplo:
+
+ section > p{
+     font-size: 20px;
+}

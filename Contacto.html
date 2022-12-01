@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <meta charset = "utf-8">
+    <meta name "author" content = "Manuel A Palafox" >
+    <meta name "description" content = "Pagina estudiantil hecha por y para estudiantes">
+    <meta name "keywords" content = "ESIME,ESIMEZ,IPN,/ZACATENCO">
+    <title> Portal Web de ESIMEz </title>
+    <link rel = "icon" href="imagenes/LogoEsime.png" type="image/png"sizes="16x16">
+    <link rel="stylesheet" href="css/estilos.CSS">
+  </head>
+
+  <body>
+      <header>
+        <hgroup>
+          <h1>Blog de Escuela Superior de Ingenieria Mecanica y Electrica </h1>
+          <p id="descripcion" >Dentro de esta pagina blog divulgamos y compartimos infomacion acerca del <a href ="https://www.ipn.mx/" target="-_blank" <abbr title="Instituto Politecnico Nacional">IPN </abbr> <a>
+          y especificamente de la <a href="https://www.esimez.ipn.mx/" target="_blank"> <abbr title="Escuela Superior de Ingenieria Mecanica y Electrica"> ESIMEz </abbr> <a> </p>
+        <h2> <strong> Página de contacto con los desarrolladores </strong> </h2>
+        </hgroup>
+      </header>
+
+    <nav>
+      <a href="PagEstudiantil.html">Principal</a>
+      <a href="Fotos.html">Fotos</a>
+      <a href="Videos.html">Videos</a>
+      <a href="contacto.html">contacto</a>
+    </nav>
+
+    <main>
+
+        <h1>Contatos:</h1>
+        <br>Author : Manuel Antonio Palafox Macías
+        <br>Correo Electronico: <a href="mailto:manuel_palafoxm@outlook.es">manuel_palafoxm@outlook.es</a>
+        <!--Dentro de este comando tendremos un correo que abrira nuestra app para enviar correos dentro de nuestro computador.-->
+        <br>Número de Teléfono: +52 2461760401
+        Direccion: <address>Privada de la Cruz número 21, Colonía Miraflores, Tlaxcala, Tlaxcala </address>
+        <br>
+        <form name="ContactoCliente" action="formulario_contacto.php" method="post" autocomplete="on">
+            <h2>Registro de contacto</h2>
+            <label> Nombre: <input type="text" name="Nombre del Ususario" value="" required></label>
+            <br>
+            <br>
+            <label> Correo Electronico: <input type="email" name="Correo Electronico" value="" required></label>
+            <br>
+            <br>
+            <label> Numero Telefonico: <input type="tel" name="Numero de telefono" maxlength="10" minlength="10" required ></label>
+
+            <p> <input type="image" src="imagenes/enviar.png" width="100"></p>
+        </form>
+
+    </main>&copy; 2022 , <a href="https://www.facebook.com/manuelantonio.palafoxmacias"target="_blank">Manuel A. Palafox</a>
+<!--En este tenemos el enlace que tenemos dentro del contacto para poder ver nuestra pag. de Facebook-->
+    <footer></footer>
+  </body>
+</html>

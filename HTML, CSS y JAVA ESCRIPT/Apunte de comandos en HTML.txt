@@ -1,0 +1,21 @@
+Apunte de comandos nuevos:
+
+0.-Abrebiatura: <abbr title="Escuela Superior de Ingenieria Mecanica y Electrica"> ESIMEz </abbr>
+
+1.-Cambiar de estilo de normal a negritas : <b>Direccion: </b>
+
+2.-Crea una sangría de los dos lados: <blockquote> </blockquote> Nos permite hacer una cita
+
+3.-Mostrará las letras dentro del texto en cursivas : <cite>El mundo de los ESIMIOS </cite>
+
+
+4.-Insertamos una imagen con el comando
+
+<figure>
+
+<img src ="img.jpg"/>
+
+</figure>
+
+5.-
+
